@@ -34,12 +34,11 @@ p {
   line-height: 75px;
   border-radius: 50px;
   display: inline-block;
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: 364px;  /*To get an image exactly centered, apply a negative top margin of half the images height, and a negative left margin of half the image's width*/
-  margin-left: 364px;
- 
+  margin-right: -50%; /*To get an image exactly centered, apply a negative top margin of half the images height, and a negative left margin of half the image's width*/
+  transform: translate(-50%, -50%)
 }
 
 img {
