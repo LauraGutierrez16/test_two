@@ -34,11 +34,9 @@ p {
   line-height: 75px;
   border-radius: 50px;
   display: inline-block;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%; /*To get an image exactly centered, apply a negative top margin of half the images height, and a negative left margin of half the image's width*/
-  transform: translate(-50%, -50%)
+  margin-left: auto;
+  margin-right: auto;/*To get an image exactly centered, apply a negative top margin of half the images height, and a negative left margin of half the image's width*/
+
 }
 
 img {
