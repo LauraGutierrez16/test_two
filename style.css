@@ -33,9 +33,12 @@ p {
   width: 75px;
   line-height: 75px;
   border-radius: 50px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;/*To get an image exactly centered, apply a negative top margin of half the images height, and a negative left margin of half the image's width*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;/*To get an image exactly centered, apply a negative top margin of half the images height, and a negative left margin of half the image's width*/
 
 }
 
