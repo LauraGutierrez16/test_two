@@ -1,7 +1,6 @@
-
 .main {
   background: url("http://www.zastavki.com/pictures/originals/2015/Nature___Flowers_Beautiful_pink_flower_daisies_on_blue_sky_background_099804_.jpg") no-repeat center center;
-  background-size: cover;
+  background-size: 100%;
   height: 728px;
   opacity:  0.8;
 }
@@ -35,7 +34,7 @@ p {
   line-height: 75px;
   border-radius: 50px;
   display: inline-block;
-  margin: -35px 272px;
+  margin: 0 auto;
 }
 
 img {
