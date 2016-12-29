@@ -38,7 +38,7 @@ p {
   top: 50%;
   left: 50%;
   margin-top: 50px;  /*To get an image exactly centered, apply a negative top margin of half the images height, and a negative left margin of half the image's width*/
-  margin-left: 50px;
+  margin-left: 100px;
  
 }
 
