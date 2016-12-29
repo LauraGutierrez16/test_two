@@ -1,6 +1,6 @@
 .main {
   background: url("http://www.zastavki.com/pictures/originals/2015/Nature___Flowers_Beautiful_pink_flower_daisies_on_blue_sky_background_099804_.jpg") no-repeat center center;
-  background-size: 100%;
+  background-size: cover;
   height: 728px;
   opacity:  0.8;
 }
@@ -34,7 +34,7 @@ p {
   line-height: 75px;
   border-radius: 50px;
   display: inline-block;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   margin-right: -50%; /*To get an image exactly centered, apply a negative top margin of half the images height, and a negative left margin of half the image's width*/
